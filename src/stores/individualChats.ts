@@ -35,7 +35,7 @@ export type UserChatMessage = ChatMessage & {
 /**
  * Whether the other person's messages can be read:
  * - pending: they have not opened the chat yet, so their message collection does not exist
- * - not-app-user: they have a Bazaar account but have never used Bazaar Chat
+ * - not-app-user: they have a Bazaar account but have never used Banter
  */
 export type PeerStatus =
   | "loading"

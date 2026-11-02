@@ -35,7 +35,7 @@ function subtitle(c: Chat): string {
     return chatsStore.incomingChats[c.id] ? "New chat" : "New message";
   }
   if (chatsStore.peerStatus[c.id] === "not-app-user") {
-    return "Not on Bazaar Chat yet";
+    return "Not on Banter yet";
   }
   const handle = usersStore.profiles[c.id]?.handle;
   return handle ? `@${handle}` : "";

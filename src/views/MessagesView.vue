@@ -45,7 +45,7 @@ function back() {
     >
       <div class="flex items-center gap-2.5">
         <BazaarLogo :width="30" />
-        <span class="text-lg font-bold tracking-tight">Chat</span>
+        <span class="text-lg font-bold tracking-tight">Banter</span>
       </div>
       <AccountMenu />
     </header>

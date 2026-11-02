@@ -34,7 +34,7 @@ const skeleton = [
       class="hidden h-14 flex-none items-center gap-2.5 border-b border-bzr-line bg-bzr-bar px-5 md:flex"
     >
       <BazaarLogo :width="30" />
-      <span class="text-lg font-bold tracking-tight">Chat</span>
+      <span class="text-lg font-bold tracking-tight">Banter</span>
     </header>
     <div class="flex min-h-0 flex-1">
       <div
@@ -75,7 +75,7 @@ const skeleton = [
       class="flex max-w-sm flex-col items-center gap-[18px] rounded-bzr border border-bzr-line bg-bzr-bg px-7 py-10 text-center"
     >
       <BazaarLogo :width="64" />
-      <h1 class="text-2xl font-bold">Bazaar Chat</h1>
+      <h1 class="text-2xl font-bold">Banter</h1>
       <p class="text-bzr-soft">
         Private one-to-one messages. Every message is stored in its sender's own
         Bazaar space.

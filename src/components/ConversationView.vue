@@ -210,7 +210,7 @@ watch(
         class="flex min-h-0 flex-1 flex-col overflow-y-auto"
         @scroll="onScroll"
       >
-        <!-- S6: not on Bazaar Chat, nothing written yet -->
+        <!-- S6: not on Banter, nothing written yet -->
         <div
           v-if="status === 'not-app-user' && messages.length === 0"
           class="flex flex-1 flex-col items-center justify-center gap-3 p-6 text-center"
@@ -230,11 +230,11 @@ watch(
             <path d="M17 15v6M14 18h6" />
           </svg>
           <div class="text-[17px] font-bold">
-            {{ firstName }} isn't using Bazaar Chat yet
+            {{ firstName }} isn't using Banter yet
           </div>
           <div class="max-w-sm text-sm text-bzr-soft">
             You can still write. Your messages stay in your Bazaar space, and
-            {{ firstName }} can read them once they open Bazaar Chat.
+            {{ firstName }} can read them once they open Banter.
           </div>
         </div>
 
@@ -342,8 +342,8 @@ watch(
             v-else-if="status === 'not-app-user'"
             class="mt-2 rounded-bzr border border-[#3a3a3a] bg-[#242424] p-3 text-[13px] text-[#d4d4d4]"
           >
-            {{ firstName }} isn't using Bazaar Chat yet and can read your
-            messages once they open it.
+            {{ firstName }} isn't using Banter yet and can read your messages
+            once they open it.
           </div>
           <div
             v-else-if="status === 'error'"
