@@ -1,4 +1,4 @@
-# Bazaar Chat
+# Banter
 
 A one-to-one messaging app, built as a [Bazaar](https://bzr.dev) example app. There is no app backend: each person stores the messages they send in their own Bazaar database and gives the recipient read access through Bazaar permissions.
 
