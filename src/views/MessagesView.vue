@@ -2,7 +2,7 @@
 import { computed, ref } from "vue";
 
 import AccountMenu from "@/components/AccountMenu.vue";
-import BazaarLogo from "@/components/BazaarLogo.vue";
+import BanterLogo from "@/components/BanterLogo.vue";
 import ChatList from "@/components/ChatList.vue";
 import ConversationView from "@/components/ConversationView.vue";
 import NewChatPanel from "@/components/NewChatPanel.vue";
@@ -44,7 +44,7 @@ function back() {
       class="hidden h-14 flex-none items-center justify-between border-b border-bzr-line bg-bzr-bar px-5 md:flex"
     >
       <div class="flex items-center gap-2.5">
-        <BazaarLogo :width="30" />
+        <BanterLogo :width="30" />
         <span class="text-lg font-bold tracking-tight">Banter</span>
       </div>
       <AccountMenu />
@@ -81,7 +81,7 @@ function back() {
           v-else
           class="flex flex-1 flex-col items-center justify-center gap-3 text-bzr-muted"
         >
-          <BazaarLogo :width="48" />
+          <BanterLogo :width="48" />
           <span>Pick a chat, or start a new one.</span>
         </div>
       </main>
